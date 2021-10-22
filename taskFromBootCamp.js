@@ -71,7 +71,7 @@ const mock = [
 //     }
 //     return sum
 // };
-// console.log("sumOfAllParams:", sumOfAllParams(1, 2, 3, 4, 5, 6));
+// console.log("sumOfAllParams: ", sumOfAllParams(1, 2, 3, 4, 5, 6));
 
 
 const str = 'This is the test string';
