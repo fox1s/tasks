@@ -74,7 +74,7 @@ const mock = [
 // console.log("sumOfAllParams: ", sumOfAllParams(1, 2, 3, 4, 5, 6));
 
 
-const str = 'This is the test string';
+// const str = 'This is the test string';
 // /*
 //   {
 // 	t: 4,
@@ -96,3 +96,34 @@ const str = 'This is the test string';
 // };
 //
 // countChars(str)
+
+
+
+
+//////////////////////////////////////////////////////////////////
+// const str = 'This is the test string, ';
+// /*
+//   {
+// 	t: 4,
+// 	h: 2,
+// 	i: 3,
+// 	s: 4,
+// 	...
+//   }
+
+// const countLetterInString = (str) =>
+//     str.split('').reduce((previous, current) => {
+//         const isLetter = ![' ', ','].includes(current);
+//         if (isLetter) {
+//             previous[current] = previous[current] && isLetter ? previous[current] + 1 : 1
+//         }
+//         return previous
+//     }, {})
+//
+//
+// console.log(countLetterInString(str));
+
+// const sumOfAllParams = (...args) => {
+//     return args.reduce((prev, curr) => prev + curr, 0)
+// }
+// console.log("sumOfAllParams: ", sumOfAllParams(1, 2, 3, 4, 5, 6));
